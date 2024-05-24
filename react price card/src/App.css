@@ -1,0 +1,15 @@
+.card-content{
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width:450px) {
+  .card-content{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+}
